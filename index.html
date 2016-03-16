@@ -1,288 +1,392 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <title>Home</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no"/>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
+<title>Ryan Yonata</title>
+<link rel="icon" href="icon.png" type="image/png">
+<link rel="shortcut icon" href="icon.ico" type="img/x-icon">
 
-    <!--[if lt IE 9]>
-    <html class="lt-ie9">
-    <div style=' clear: both; text-align:center; position: relative;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
-                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-        </a> 
-    </div>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
-    <![endif]-->
- 
-    <script src='js/device.min.js'></script> 
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+
 </head>
-
 <body>
-<div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
-
-        <div class="camera_container">
-            <div id="camera" class="camera_wrap">
-                <div data-thumb="images/slide01_thumb.jpg" data-src="images/slide01.jpg">
-                    <div class="camera_caption fadeIn">
-                    </div>
-                </div>
-                <div data-thumb="images/slide02_thumb.jpg" data-src="images/slide02.jpg">
-                    <div class="camera_caption fadeIn">
-                    </div>
-                </div>
-                <div data-thumb="images/slide03_thumb.jpg" data-src="images/slide03.jpg">
-                    <div class="camera_caption fadeIn">
-                    </div>
-                </div>
-            </div>
-
-            <div class="brand wow fadeIn">
-                <h1 class="brand_name">
-                    <a href="./">Cafe</a>
-                </h1>
-            </div>
-        </div>
-        
-        <div class="toggle-menu-container">
-            <nav class="nav">
-                <div class="nav_title"></div>
-                <a class="sf-menu-toggle fa fa-bars" href="#"></a>
-                <ul class="sf-menu">
-                    <li class="active">
-                        <a href="./">Home</a>
-                    </li>
-                    <li>
-                        <a href="index-1.html">About</a>
-                        <ul>
-                            <li>
-                                <a href="#">Quisque nulla</a>
-                            </li>
-                            <li>
-                                <a href="#">Vestibulum libero</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Lorem</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Dolor</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Sit amet</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Vivamus eget nibh</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="index-2.html">What We Do</a>
-                    </li>
-                    <li>
-                        <a href="index-3.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="index-4.html">Contacts</a>
-                    </li>
-                </ul>
-            </nav>            
-        </div>
-
-    </header>
-    <!--========================================================
-                              CONTENT
-    =========================================================-->
-    <main>
-        <section class="well">
-            <div class="container">
-                <h2><em>Welcome</em>to Our Place</h2>
-                <div class="row">
-                    <div class="grid_6">
-                        <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;"><img data-src="images/page-1_img01.jpg" alt=""></div></div>
-                        <p class="center indents-1">Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
-                    </div>
-                    <div class="grid_6">
-                        <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;"><img data-src="images/page-1_img02.jpg" alt=""></div></div>
-                        <p class="center indents-1">Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
-                    </div>
-                </div>
-                <div class="decoration"><a href="#" class="btn">Read more</a></div>
-                <h2><em>Our</em>Cuisine</h2>
-            </div>            
-            <div class="gallery">
-                <div class="gallery_col-1">
-                    <a data-fancybox-group="gallery" href="images/page-1_img03_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.96551724137931%;">
-                        <img data-src="images/page-1_img03.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img04_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 74.13793103448276%;">
-                        <img data-src="images/page-1_img04.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img05_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 94.6551724137931%;">
-                        <img data-src="images/page-1_img05.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="gallery_col-2">
-                    <a data-fancybox-group="gallery" href="images/page-1_img06_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 52.48322147651007%;">
-                        <img data-src="images/page-1_img06.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img07_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 55.97315436241611%;">
-                        <img data-src="images/page-1_img07.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img08_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 96.10738255033557%;">
-                        <img data-src="images/page-1_img08.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="gallery_col-3">
-                    <a data-fancybox-group="gallery" href="images/page-1_img09_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
-                        <img data-src="images/page-1_img09.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img10_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 72.23168654173765%;">
-                        <img data-src="images/page-1_img10.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a data-fancybox-group="gallery" href="images/page-1_img11_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
-                        <img data-src="images/page-1_img11.jpg" alt="">
-                        <div class="gallery_overlay">
-                            <div class="gallery_caption">
-                                <p><em>Lorem Blandit</em></p>
-                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section class="parallax parallax1" data-parallax-speed="-0.4">
-            <div class="container">
-                <h2><em>Our </em>Experience</h2>
-                <p class="indents-2">Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci </p>
-                <a href="#" class="btn">View full menu</a>
-            </div>
-        </section>
-        <section class="well well__offset-1 bg-1">
-            <div class="container">
-                <h2><em>Our </em>Cooks</h2>
-                <div class="row row__offset-1">
-                    <div class="grid_4">
-                        <figure>
-                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img12.jpg" alt=""></div>
-                            <figcaption>Kevin Grey</figcaption>
-                        </figure>
-                        <h3>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
-                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
-                    </div>
-                    <div class="grid_4">
-                        <figure>
-                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img13.jpg" alt=""></div>
-                            <figcaption>Linda Klein</figcaption>
-                        </figure>
-                        <h3>Oeteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
-                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
-                    </div>
-                    <div class="grid_4">
-                        <figure>
-                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img14.jpg" alt=""></div>
-                            <figcaption>Ann Shelton</figcaption>
-                        </figure>
-                        <h3>Koteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
-                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
-                    </div>
-                </div>
-                <div class="decoration"><a href="#" class="btn">Read more</a></div>
-            </div>
-        </section>
-        <section class="well well__offset-2">
-            <div class="container center">
-                <h2><em>Make </em>a Reservation</h2>
-                <p class="indents-2">Fnteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol.</p>
-                <address class="address-1">
-                    <dl><dt>Address:</dt> <dd>4578 Marmora Road, Glasgow DA04 89GR</dd></dl>
-                    <p><em>800 2345-6789</em></p>
-                </address>
-            </div>
-        </section>
-    </main>
-
-    <!--========================================================
-                              FOOTER
-    =========================================================-->
-    <footer>
-        <div class="container">
-            <ul class="socials">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-tumblr"></a></li>
-                <li><a href="#" class="fa fa-google-plus"></a></li>
-            </ul>
-            <div class="copyright">© <span id="copyright-year"></span> |
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div>
-        <div class="tm"><a href="#"><img src="images/TM_logo.png" alt=""></a></div>
-    </footer>
+<div style="overflow:hidden;">
+<header class="header" id="header"><!--header-start-->
+	<div class="container">
+    	<figure class="logo animated fadeInDown delay-07s">
+        	<a href="#"><img src="img/logo2.png" alt=""></a>	
+        </figure>	
+        <h1 class="animated fadeInDown delay-07s">HI! I'M RYAN YONATA</h1>
+        <ul class="we-create animated fadeInUp delay-1s">
+        	<li>Welcome to my portfolio page!</li>
+        </ul>
+        <ul class="main-nav">
+            <li><a class="link animated fadeInUp delay-1s" href="#start">Let's Get Started!</a></li>
+        </ul>
+    </div>
 </div>
+</header><!--header-end-->
 
-<script src="js/script.js"></script>
+
+<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+	<div class="container" id="start">
+        <ul class="main-nav">
+        	<li><a href="#header">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li class="small-logo"><a href="#header"><img src="img/logo-small2.png" alt=""></a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav><!--main-nav-end-->
+
+<section class="main-section" id="portfolio"><!--main-section-start-->
+	<div class="container">
+    	<h2>Coodle Academy</h2>
+        <div class="row">
+        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            	<div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-book"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Description</h3>
+                        <p>A prototype of collaborative learning website for Human-Computer Interaction Class. Developed using HTML, CSS, JavaScript, and Google Materials. The website has rich features such as Chatting, Profiling, Group Discussion, Brainstorming Board, Log Activity, and file Sharing. Just check it out at http;//maucobain.ga</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-gear"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>development</h3>
+                        <p>HTML, CSS, JavaScript, and Google Materials.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-globe"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Website</h3>
+                        <a href="http://maucobain.ga/">http://maucobain.ga</a>
+                    </div>
+                </div>
+            </div>
+            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+            	<img src="img/ca3.JPG" alt="">
+            </figure>
+        
+        </div>
+	</div>
+</section><!--main-section-end-->
+
+
+
+<section class="main-section alabaster"><!--main-section alabaster-start-->
+	<div class="container">
+    	<div class="row">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/smartgrid.png" alt="">
+            </figure>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>SmartGrid</h2>
+                <div class="featured-box">
+                    <div class="featured-box-col1 wow fadeInRight delay-02s">
+                        <i class="fa-book"></i>
+                    </div>  
+                    <div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>Description</h3>
+                        <p>SmartGrid Application is an application using Greedy Algorithm that can help us to know when is the perfect time to turn on the electronic stuffs so we can use the electricity efficiently. This application is developed by C++ programming language and using SFML for the user interface. This project was created for academic purpose in Algorithm Strategy class.</p>
+                    </div>    
+                </div>
+            	<div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-02s">
+                    	<i class="fa-gear"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>Development</h3>
+                        <p>C++, SFML, Greedy Algorithm</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+	</div>
+</section><!--main-section alabaster-end-->
+
+<section class="main-section team" id="skills"><!--main-section team-start-->
+	<div class="container">
+        <h2>SKILLS</h2>
+        <h6>Things I'm good at.</h6>
+        <div class="team-leader-block clearfix">
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/php.png" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Experienced</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">PHP</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/cpp.png" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Experienced</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">C++</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/java.png" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Experienced</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">Java</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/html.PNG" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Experienced</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">HTML</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/css.PNG" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Experienced</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">CSS</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/js.PNG" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Familiar</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">JavaScript</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/sql.png" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Familiar</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">SQL</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/cs.PNG" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Familiar</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">C#</h3>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s"> 
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/c.PNG" alt="">
+                    <ul>
+                        <li><p class="hoverskill">Familiar</p></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">C</h3>
+            </div>
+        </div>
+    </div>
+</section><!--main-section team-end-->
+
+<section class="main-section client-part" id="client"><!--main-section client-part-start-->
+    <div class="container">
+        <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="client-part-haead wow fadeInDown delay-05">Be like a duck, calm on the surface but always paddling like the dickens underneath. -Michael Caine</p>
+            </div>
+        </div>
+        <ul class="client wow fadeIn delay-05s">
+            <li><a href="#">
+                <img src="img/ryan.jpg" alt="">
+                <h3>Ryan Yonata</h3>
+                <span>Informatics Student at ITB | Web Developer</span>
+            </a></li>
+        </ul>
+    </div>
+</section><!--main-section client-part-end-->
+
+<div class="container">
+<section class="main-section contact" id="contact">
+	
+        <div class="row">
+        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            	<div class="contact-info-box address clearfix">
+                	<h3><i class=" icon-map-marker"></i>Address:</h3>
+                	<span>Asrama Kidang Pananjung ITB<br>Jl. Cisitu Lama VIII No.12 RT 001/RW 10</br>Kel. Dago, Kec. Coblong, bandung 40135</span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                	<h3><i class="fa-envelope"></i>email:</h3>
+                	<span>ryan.yonata@gmail.com</span>
+                </div>
+            </div>
+        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                <h3>Find me on:<h3/>
+            	<ul class="social-link">
+                     <li class="linkedin"><a href="http://id.linkedin.com/in/ryanyonata"><i class="fa-linkedin"></i></a></li>
+                    <li class="facebook"><a href="http://www.facebook.com/ryan.yonata"><i class="fa-facebook"></i></a></li>
+                    <li class="instagram"><a href="http://www.istagram.com/ryan.yonata"><i class="fa-instagram"></i></a></li>
+                    <li class="twitter"><a href="http://www.twitter.com/ryanyonata"><i class="fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+</section>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#"><img src="img/logo3.png" alt=""></a></div>
+        <span class="copyright">Copyright © 2015 | <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste | edited by <a href="#">Ryan Yonata</a></span>
+    </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
+    -->
+</footer>
+
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+ 
+  </script>
+
+
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('.main-nav li a').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 375,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+			
+            filter: selector,
+         });
+         return false;
+    });
+  
+});
+
+</script>
 </body>
 </html>
